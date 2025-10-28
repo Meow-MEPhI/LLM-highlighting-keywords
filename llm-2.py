@@ -6,7 +6,7 @@ from langchain_core.messages import SystemMessage, HumanMessage
 
 
 
-AUTH_KEY = "YjJkOGY4NjctNGY3Ny00NTM3LTkwN2MtODg1NmIzZTJlNWY2OjViMTNlOGVhLTk3NjQtNGY5Mi05MzQyLWM0NDEzZDExYzdkNQ=="
+AUTH_KEY = ""
 
 ARTICLE_URL = "https://cyberleninka.ru/article/n/ugolovnyy-kodeks-finlyandii-1889-g-kak-zakonodatelnyy-istochnik-evropeyskoy-integratsii/viewer"
 
@@ -31,4 +31,5 @@ try:
     print(result)
 
 except Exception as e:
+
     print(f"Произошла ошибка: {e}")
